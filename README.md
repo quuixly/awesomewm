@@ -2,7 +2,7 @@
 Dotfiles for awesomewm + ubuntu.
 
 # Packages
-sudo apt install xinput awesome awesome-extra brightnessctl alacritty firefox-esr nemo
+sudo apt install xinput awesome awesome-extra brightnessctl alacritty firefox-esr nemo git-all
 
 # Key shortcuts
 `win + t` Open alacritty
