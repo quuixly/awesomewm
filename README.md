@@ -1,12 +1,12 @@
 # awesomewm
-Dotfiles for awesomewm + ubuntu.
+Dotfiles for awesomewm + arch.
 
 # Packages
-sudo apt install xinput awesome awesome-extra brightnessctl alacritty firefox-esr nemo git-all
+sudo pacman -S brightnessctl alacritty firefox nemo git
 
 # Key shortcuts
 `win + t` Open alacritty
-`win + f` Open firefox-esr
+`win + f` Open firefox
 `win + e` Open nemo
 `win + q` Close current window
 `shift + 1-9` Move current window to another workspace
