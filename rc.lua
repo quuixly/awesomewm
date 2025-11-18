@@ -225,7 +225,7 @@ globalkeys = gears.table.join(
     awful.key({ modkey }, "e", function() awful.spawn("nemo") end,
         { description = "Open file manager", group = "launcher" }),
 
-    awful.key({ modkey }, "r", function() awful.screen.focused().mypromptbox:run() end,
+    awful.key({ modkey }, "r", function() awful.spawn("rofi -show drun")  end,
         { description = "Run prompt", group = "launcher" }),
 
     awful.key({ modkey, "Control" }, "r", awesome.restart,
