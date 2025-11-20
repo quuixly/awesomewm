@@ -231,6 +231,9 @@ globalkeys = gears.table.join(
     awful.key({ modkey, "Control" }, "r", awesome.restart,
         { description = "Restart Awesome", group = "awesome" }),
 
+    awful.key({ modkey, "Shift" }, "s", function() awesome.spawn("ksnip -r") end,
+        { description = "Restart Awesome", group = "awesome" }),
+
     awful.key({ modkey }, "q",
         function()
             if client.focus then
@@ -358,3 +361,4 @@ end)
 -- Enable touchpad tapping (optional)
 awful.spawn.with_shell('xinput set-prop 12 "libinput Tapping Enabled" 1')
 
+awful.spawn.with_shell('xinput set-prop 11 "libinput Tapping Enabled" 1')
