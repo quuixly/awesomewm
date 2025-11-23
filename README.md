@@ -2,7 +2,7 @@
 Dotfiles for awesomewm + arch.
 
 # Packages
-sudo pacman -S brightnessctl alacritty firefox nemo git ksnip gvim upower pamixer rofi xorg-xinput
+sudo pacman -S brightnessctl alacritty firefox nemo git ksnip gvim upower pamixer rofi xorg-xinput vlc vlc-plugin-ffmpeg
 
 # Key shortcuts
 `win + t` Open alacritty
