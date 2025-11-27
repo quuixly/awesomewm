@@ -11,6 +11,8 @@ sudo pacman -S brightnessctl alacritty firefox nemo git ksnip gvim upower pamixe
 
 `win + e` Open nemo
 
+`win + r` Open rofi
+
 `win + q` Close current window
 
 `shift + 1-9` Move current window to another workspace
