@@ -2,7 +2,16 @@
 Dotfiles for awesomewm + arch.
 
 # Packages
-sudo pacman -S brightnessctl alacritty firefox nemo git ksnip gvim upower pamixer rofi xorg-xinput vlc vlc-plugin-ffmpeg blueman bluez-utils
+sudo pacman -S brightnessctl alacritty firefox nemo git ksnip pipewire-pulse upower pamixer rofi btop os-prober zsh lightdm awesome
+
+# Installation
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+sudo nano /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
 
 # Key shortcuts
 `win + t` Open alacritty
